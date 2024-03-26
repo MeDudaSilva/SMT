@@ -1,3 +1,6 @@
+<script setup>
+import
+</script>
 <template>
   <header>
     <div class="top">
@@ -8,6 +11,7 @@
     </div>
     <div class="bottom">
       <h1>
+
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque,
         molestias nobis consequuntur maiores tempora quos! Perspiciatis provident sunt,
         non, vel quasi ex ad quis, accusantium quas recusandae quidem a?
@@ -33,17 +37,15 @@
 .logo h1 {
   font-size: 6vh;
   font-family: "Lakki Reddy", serif;
+  color: black;
 }
 header {
   display: flex;
-  /* justify-content: space-around; */
-  background-color: aqua;
   flex-direction: column;
 }
 .top {
   display: flex;
   padding: 10px;
-  background-color: red;
   height: 9vh;
   flex-direction: row;
 }
