@@ -5,7 +5,7 @@
   <header>
     <div class="top">
       <div class="logo">
-        <img src="@/assets/logo.png" alt="logo" />
+        <img src="@/assets/logoSMT.png" alt="logo" />
         <h1>SMT</h1>
       </div>
     </div>
