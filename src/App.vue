@@ -1,8 +1,7 @@
-<script setup>
-import HeaderSMT from './components/HeaderSMT.vue'
-</script>
+<script setup></script>
+
 <template>
-      <HeaderSMT/>
+  <RouterView />
 </template>
-<style scoped>
-</style>
+
+<style scoped></style>
