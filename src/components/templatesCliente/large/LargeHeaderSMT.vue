@@ -20,19 +20,30 @@ import Menu from "vue-material-design-icons/Menu.vue";
       <div class="user"><img src="/public/Darth-Vader-Star-Wars-PNG.png" alt="" /></div>
     </div>
     <div class="bottom">
-      <Menu size="7vh" />
-      <p>Ranking</p>
+      <Menu class="menu" size="5vh" />
+      <ul>
+        <li>Ranking</li>
+        <li>Suporte</li>
+        <li>Perguntas</li>
+        <li>Histórico</li>
+        <li>Favoritos</li>
+        <li>Configurações</li>
+      </ul>
+      <h2>Sistema Multi-Trabalhista</h2>
     </div>
   </header>
 </template>
 <style scoped>
+.menu {
+  padding: 1.5vh 5vh 1vh 3vh;
+}
 #barra-pesquisa {
   width: 600px;
   height: 45px;
   border-radius: 30px;
   font-size: 22px;
   padding: 0px 15px;
-  margin: 3vh 50vh;
+  margin: 2vh 50vh;
   text-align: center;
   border: 3px solid blue;
   box-shadow: 0 10px 30px 0 black;
@@ -69,13 +80,24 @@ header {
   display: flex;
   flex-direction: row;
   background-color: rgb(192, 192, 192);
-  margin-top: 2vh;
+  margin-top: 1vh;
+  height: 4vh;
+  align-items: center;
 }
-  p{
-    font-family: "Lakki Reddy", serif;
-    font-size: 30px;
-    text-align: center;
-    padding: 2vh 0 0 2vh;
-  }
-@import url("https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap");
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  font-size: 2vh;
+  text-align: center;
+  padding: 0 7vh 0 7vh;
+  list-style: none;
+}
+h2 {
+  font-family: "Lakki Reddy", serif;
+  font-size: 3vh;
+  padding-top: 2vh;
+  margin-left: 10vh;
+}
 </style>
