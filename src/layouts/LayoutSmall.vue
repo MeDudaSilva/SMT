@@ -1,6 +1,6 @@
 <script setup>
-  import SmallHeader from '@/components/templates/small/SmallHeaderSMT.vue';
-  import SmallFooter from '@/components/templates/small/SmallFooterSMT.vue';
+  import SmallHeader from '@/components/templatesCliente/small/SmallHeaderSMT.vue';
+  import SmallFooter from '@/components/templatesCliente/small/SmallFooterSMT.vue';
 </script>
 
 <template>

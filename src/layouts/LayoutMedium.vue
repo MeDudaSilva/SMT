@@ -1,7 +1,7 @@
 <script setup>
-  import MediumHeader from '@/components/templates/medium/MediumHeaderSMT.vue';
-  import MediumAside from '@/components/templates/medium/MediumAsideSMT.vue';
-  import MediumFooter from '@/components/templates/medium/MediumFooterSMT.vue';
+  import MediumHeader from '@/components/templatesCliente/medium/MediumHeaderSMT.vue';
+  import MediumAside from '@/components/templatesCliente/medium/MediumAsideSMT.vue';
+  import MediumFooter from '@/components/templatesCliente/medium/MediumFooterSMT.vue';
 import { RouterView } from 'vue-router';
 </script>
 
