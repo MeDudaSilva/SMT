@@ -80,7 +80,7 @@ header {
   display: flex;
   flex-direction: row;
   background-color: rgb(192, 192, 192);
-  margin-top: 1vh;
+  margin: 1vh 0 0.5vh 0;
   height: 4vh;
   align-items: center;
 }

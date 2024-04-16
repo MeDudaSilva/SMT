@@ -1,5 +1,12 @@
 <script setup></script>
 <template>
-    <h1>SMT</h1>
+  <div class="slide">
+    <img src="../assets/trabalhadores.jpg" alt="" />
+  </div>
+  <div class="mapa">
+    <img src="../assets/mapa.jpg" alt="" />
+  </div>
 </template>
-<style scoped></style>
+<style scoped>
+
+</style>
