@@ -1,3 +1,3 @@
 <template>
-    <h2>Large Aside</h2>
-  </template>
+  <h1>smt aside</h1>
+</template>

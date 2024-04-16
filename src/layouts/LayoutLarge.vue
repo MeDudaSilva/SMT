@@ -10,7 +10,7 @@
     </header>
     <!-- <aside>
       <LargeAside />
-    </aside> -->
+    </aside>  -->
     <main>
       <RouterView />
     </main>
@@ -20,7 +20,7 @@
   </div>
 </template>
 <style scoped>
-/* #layout-large {
+ /* #layout-large {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: auto 1fr auto;
@@ -29,7 +29,7 @@
     'aside main'
     'aside footer';
   min-height: 100vh;
-} */
+}  */
 
 /* header {
   display: flex;
